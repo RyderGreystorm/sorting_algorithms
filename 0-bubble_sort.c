@@ -1,6 +1,21 @@
 #include "sort.h"
 
 /**
+ * swap - Swaps elements in an array
+ * @a: first argument which is a pointer
+ * @b: second argument which is also a pointer
+ */
+void swap(int *a, int *b)
+{
+        int tmp;
+
+        tmp = *a;
+        *a = *b;
+        *b = tmp;
+}
+
+
+/**
  * bubble_sort - sorts an array usiing bubble sort algorithm
  * @array: array containing elements to be sorted
  * @size: size of the arry
