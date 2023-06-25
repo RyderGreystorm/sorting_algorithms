@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * sawp_list - swaps nodes in a linkedlist
+ * swap_list - swaps nodes in a linkedlist
  * @head: head pointer
  * @node1: previous node
  * @node2: next node
